@@ -17,6 +17,30 @@ print('''
 \033[31m 	  instagram: @spookyle4n
 ''')
 
+first_name = input("First Name: ")
+
+last_name = input("Last Name: ")
+
+address = input("Address: ")
+
+ip = input("ip: ")
+
+age = input("age: ")
+
+print("victims first name : " + " " + first_name + " " + "\n")
+time.sleep(0.5)
+
+print("victims last name : " + " " + last_name + " " + "\n")
+time.sleep(0.5)
+
+print("victims address : " + " " + address + " " + "\n")
+time.sleep(0.5)
+
+print("victims IP address : " + " " + ip + " " + "\n")
+time.sleep(0.5)
+
+print("victims age : " + " " + age + " " + "\n")
+
 dox = str(input(' [?] open doxbin.org [y/n]: '))
 import webbrowser
 if dox == 'y': webbrowser.open('http://www.doxbin.com/upload')
