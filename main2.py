@@ -1,6 +1,5 @@
 # coded by wyatt g #
 
-import pyperclip
 import webbrowser
 import time
 
