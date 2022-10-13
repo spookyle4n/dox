@@ -1,3 +1,5 @@
+INSTALLATION
+
 • git clone github.com/spookyle4n/dox
 
 • cd dox
