@@ -136,7 +136,9 @@ print("  »  Instagram: "+ " " + insta)
 print("  »  Discord: "+ " " + dis)
 print("  »  Twitter: "+ " " + tweet)
 
-print("copy above text")
+print("└──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝")
+
+print(" copy above text [!]")
 
 dox = str(input(' [?] open doxbin.org [y/n]: '))
 
