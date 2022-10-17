@@ -11,8 +11,8 @@ print('''
 \033[34m      | |_| | (_) >  <| |_) | | | | |
 \033[35m      |____/ \___/_/\_\_.__/|_|_| |_| 
 
-\033[31m 	        tiktok:    @jahsehrare
-\033[31m 	        instagram: @spookyle4n
+\033[31m 	    tiktok:    @jahsehrare
+\033[31m 	    instagram: @spookyle4n
 
 ''')
 print("[!] please make an account on \"doxbin.com\"")
