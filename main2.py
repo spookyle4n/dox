@@ -15,7 +15,7 @@ print('''
 \033[31m	   instagram: @spookyle4n
 
 ''')
-print(\033[31m "[!]\033[35m please make an account on \"doxbin.com\"")
+print("\033[31m[!]\033[35m please make an account on \"doxbin.com\"")
 
 reason = input("reason for dox: ")
 
