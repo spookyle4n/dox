@@ -4,7 +4,6 @@ import webbrowser
 import time
 
 print('''
-
 \033[31m       ____            _     _       
 \033[32m      |  _ \  _____  _| |__ (_)_ __  
 \033[33m      | | | |/ _ \ \/ / '_ \| | '_ \ 
@@ -13,61 +12,60 @@ print('''
 
 \033[31m 	   tiktok:    @jahsehrare
 \033[31m	   instagram: @spookyle4n
-
 ''')
 print("\033[31m[!]\033[35m please make an account on \"doxbin.com\"")
 
-reason = input("reason for dox: ")
+doxx = str(input(' [?] do you already have an account? [y/n]: '))
 
-picture = input("picture: ")
+if doxx == 'n': webbrowser.open('https://doxbin.com/register')
 
-full_name = input("Full name: ")
+if doxx == 'y':
 
-age = input("age: ")
+reason = input("\033[31m[!] reason for dox: ")
 
-dob = input("date of birth: ")
+full_name = input("\033[31m[!] Full name: ")
 
-race = input("race: ")
+age = input("\033[31m[!] age: ")
 
-picture = input("pic: ")
+dob = input("\033[31m[!] date of birth: ")
 
-gender = input("gender: ")
+race = input("\033[31m[!] race: ")
 
-weight = input("weight: ")
+picture = input("\033[31m[!] pic: ")
 
-height = input("height: ")
+gender = input("\033[31m[!] gender: ")
 
-provider = input("internet service provider: ")
+weight = input("\033[31m[!] weight: ")
 
-code = input("area code: ")
+height = input("\033[31m[!] height: ")
 
-phone = input("phone number: ")
+provider = input("\033[31m[!] internet service provider: ")
 
-address = input("Address: ")
+code = input("\033[31m[!] area code: ")
 
-postal = input("postal code: ")
+phone = input("\033[31m[!] phone number: ")
 
-email = input("email address: ")
+address = input("\033[31m[!] Address: ")
 
-ip = input("ip: ")
+postal = input("\033[31m[!] postal code: ")
 
-school_name = input("school name: hi")
+email = input("\033[31m[!] email address: ")
 
-school_address = input("school address: ")
+ip = input("\033[31m[!] ip: ")
 
-school_website = input("school website: ")
+school_address = input("\033[31m[!] school address: ")
 
-school_phone = input("school phone number: ")
+school_website = input("\033[31m[!] school website: ")
 
-face_book = input("facebook: ")
+face_book = input("\033[31m[!] facebook: ")
 
-tik_tok = input("tik tok: ")
+tik_tok = input("\033[31m[!] tik tok: ")
 
-insta = input("instagram: ")
+insta = input("\033[31m[!] instagram: ")
 
-dis = input("discord: ")
+dis = input("\033[31m[!] discord: ")
 
-tweet = input("twitter: ")
+tweet = input("\033[31m[!] twitter: ")
 
 print('''
 ────────────────────────────────────────────────────────────────────
@@ -75,7 +73,7 @@ print('''
 print("reason: "+ " " + reason)
 print('''
 \033 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-\033 |  |██░[ basic infortmation ]░████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
+\033 |  |██░[ basic information ]░████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
 \033 └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
 ''')
 
@@ -83,7 +81,7 @@ print("  »  Picture: "+ " " + picture)
 print("  »  Name: "+ " " + full_name)
 print('''
 \034 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-\034 |  |██░ [ username ]░█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
+\034 |  |██░ [ information ]░█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░
 \034 ╚──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
 ''')
 print("  »  Age: "+ " " + age)
@@ -95,7 +93,6 @@ print("  »  Weight: "+ " " + weight)
 print("  »  Height: "+ " " + height)
 
 print('''
-
 \035 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 \035 |  |██░[ personal identification ]░███████████████████████████████████████████████████████████████████████████████████████████████████████████████████░ 
 \035 └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
@@ -110,24 +107,18 @@ print("  »  Email Adress: "+ " " + email)
 print("  »  Internet Protocol v4/ IPv6: "+ " " + ip)
 
 print('''
-
 \032 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 \032 |  |██░[ school information ]░████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░ 
 \032 └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
-
 ''')
 
-print("  »  School Name: "+ " " + school_name)
 print("  »  School Address: "+ " " + school_address)
 print("  »  School Website: "+ " " + school_website)
-print("  »  School Phone Number: "+ " " + school_phone)
 
 print('''
-
 \036 ╔══╦═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 \036 |  |██░[ socials ]░███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░ 
 \036 └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
-
 ''')
 
 print("  »  Facebook: "+ " " + face_book)
@@ -138,7 +129,7 @@ print("  »  Twitter: "+ " " + tweet)
 
 print("└──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝")
 
-print(" copy above text [!]")
+print(" !] copy above text ")
 
 dox = str(input(' [?] open doxbin.org [y/n]: '))
 
