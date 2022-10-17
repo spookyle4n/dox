@@ -21,51 +21,51 @@ if doxx == 'n': webbrowser.open('https://doxbin.com/register')
 
 if doxx == 'y':
 
-reason = input("\033[31m[!] reason for dox: ")
+reason = input("\033[31m[!]\033[35m reason for dox: ")
 
-full_name = input("\033[31m[!] Full name: ")
+full_name = input("\033[31m[!]\033[35m Full name: ")
 
-age = input("\033[31m[!] age: ")
+age = input("\033[31m[!]\033[35m age: ")
 
-dob = input("\033[31m[!] date of birth: ")
+dob = input("\033[31m[!]\033[35m date of birth: ")
 
-race = input("\033[31m[!] race: ")
+race = input("\033[31m[!]\033[35m race: ")
 
-picture = input("\033[31m[!] pic: ")
+picture = input("\033[31m[!]\033[35m pic: ")
 
-gender = input("\033[31m[!] gender: ")
+gender = input("\033[31m[!]\033[35m gender: ")
 
-weight = input("\033[31m[!] weight: ")
+weight = input("\033[31m[!]\033[35m weight: ")
 
-height = input("\033[31m[!] height: ")
+height = input("\033[31m[!]\033[35m height: ")
 
-provider = input("\033[31m[!] internet service provider: ")
+provider = input("\033[31m[!]\033[35m internet service provider: ")
 
-code = input("\033[31m[!] area code: ")
+code = input("\033[31m[!]\033[35m area code: ")
 
-phone = input("\033[31m[!] phone number: ")
+phone = input("\033[31m[!]\033[35m phone number: ")
 
-address = input("\033[31m[!] Address: ")
+address = input("\033[31m[!]\033[35m Address: ")
 
-postal = input("\033[31m[!] postal code: ")
+postal = input("\033[31m[!]\033[35m postal code: ")
 
-email = input("\033[31m[!] email address: ")
+email = input("\033[31m[!]\033[35m email address: ")
 
-ip = input("\033[31m[!] ip: ")
+ip = input("\033[31m[!]\033[35m ip: ")
 
-school_address = input("\033[31m[!] school address: ")
+school_address = input("\033[31m[!]\033[35m school address: ")
 
-school_website = input("\033[31m[!] school website: ")
+school_website = input("\033[31m[!]\033[35m school website: ")
 
-face_book = input("\033[31m[!] facebook: ")
+face_book = input("\033[31m[!]\033[35m facebook: ")
 
-tik_tok = input("\033[31m[!] tik tok: ")
+tik_tok = input("\033[31m[!]\033[35m tik tok: ")
 
-insta = input("\033[31m[!] instagram: ")
+insta = input("\033[31m[!]\033[35m instagram: ")
 
-dis = input("\033[31m[!] discord: ")
+dis = input("\033[31m[!]\033[35m discord: ")
 
-tweet = input("\033[31m[!] twitter: ")
+tweet = input("\033[31m[!]\033[35m twitter: ")
 
 print('''
 ────────────────────────────────────────────────────────────────────
