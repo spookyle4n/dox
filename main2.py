@@ -13,13 +13,11 @@ print('''
 \033[31m        tiktok:    @jahsehrare
 \033[31m        instagram: @spookyle4n
 ''')
-print("\033[31m[!]\033[35m please make an account on \"doxbin.com\"")
+print("\033[31m[!]\033[35m  please make an account on \"doxbin.com\"")
 
-doxx = str(input(' [?] do you already have an account? [y/n]: '))
+doxx = str(input('\t> [?] do you already have an account? [y/n]: '))
 
 if doxx == 'n': webbrowser.open('https://doxbin.com/register')
-
-if doxx == 'y':
 
 reason = input("\033[31m[!]\033[35m reason for dox: ")
 
@@ -126,10 +124,11 @@ print("  »  Tik Tok: "+ " " + tik_tok)
 print("  »  Instagram: "+ " " + insta)
 print("  »  Discord: "+ " " + dis)
 print("  »  Twitter: "+ " " + tweet)
+print('''
+      └──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝
+      ''')
 
-print("└──┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╝")
-
-print(" !] copy above text ")
+print("\033[31m[!]\033[35m copy above text ")
 
 dox = str(input(' [?] open doxbin.org [y/n]: '))
 
