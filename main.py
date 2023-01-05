@@ -13,7 +13,7 @@ print('''
 \033[31m        tiktok:    @jahsehrare
 \033[31m        instagram: @spookyle4n
 ''')
-print("\033[31m[!]\033[35m  please make an account on \"doxbin.com\"")
+print("\033[31m[!]\033[35m  please make an account on \"doxbin.com\")
 
 doxx = str(input('\t> [?] do you already have an account? [y/n]: '))
 
